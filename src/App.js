@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import KeySignatureQuiz from './KeySignatureQuiz';
+import LevelingGame from './LevelingGame';
 
 function App() {
   return (
     <div className="App">
-      <KeySignatureQuiz
-        keySignature="D"
-        onCorrect={() => alert('Correct!')}
-        onIncorrect={() => alert('Incorrect!')}
-      />
+      <LevelingGame />
     </div>
   );
 }
