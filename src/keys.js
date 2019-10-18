@@ -1,1 +1,1 @@
-export const MAJOR_KEYS = ['C', 'G', 'D', 'E', 'A', 'B', 'F'];
+export const MAJOR_KEYS = ['C', 'G', 'D', 'A', 'E', 'B', 'F#', 'C#'];
