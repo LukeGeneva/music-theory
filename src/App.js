@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import SheetMusic from './SheetMusic';
-
-const abcString = `K:E\n|`;
+import KeySignatureQuiz from './KeySignatureQuiz';
 
 function App() {
   return (
     <div className="App">
-      <SheetMusic abcString={abcString} />
+      <KeySignatureQuiz
+        keySignature="D"
+        onCorrect={() => alert('Correct!')}
+        onIncorrect={() => alert('Incorrect!')}
+      />
     </div>
   );
 }
