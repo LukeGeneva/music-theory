@@ -4,6 +4,7 @@ import KeySignatureQuiz from './KeySignatureQuiz';
 const LevelingGame = () => {
   const [level, setLevel] = React.useState(1);
   const [streak, setStreak] = React.useState(0);
+  console.log(level);
 
   const handleCorrectAnswer = () => {
     const newStreak = streak + 1;
